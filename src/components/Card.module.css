@@ -1,0 +1,43 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+
+}
+.card {
+   display:flex;
+   flex-direction: column;
+   width: 300px;
+   border:2px solid black;
+   border-radius: 10px;
+}
+.citycolor{
+    color: rgb(36, 68, 90);;
+}
+.cardc1 {
+    background-color:rgb(196, 159, 111);
+ }
+ .cardc2 {
+    background-color:rgb(126, 192, 212);
+ }
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.botc1 {
+    background-color: red;
+    width:30px;
+    align-self: flex-end;
+    border-radius: 5px;
+    margin: 5px;
+}
+.botc1:hover{
+    color:black;
+    background-color: cornflowerblue;
+}
+.botc2 {
+    color:white;
+}

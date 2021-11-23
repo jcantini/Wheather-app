@@ -1,0 +1,33 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.about {
+   display:flex;
+   flex-direction: column;
+   background-color: seagreen;
+   width: 500px;
+   border:2px solid rebeccapurple;
+   border-radius: 10px;
+   font-size: 20px;
+}
+.botcontainer{
+    display:flex;
+   flex-direction: row;
+   justify-content: end;
+}
+.botc1 {
+    background-color: rgb(61, 135, 179);
+    width:30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.botc1:hover{
+    color:black;
+    background-color: cornflowerblue;
+}
+.botc2 {
+    color:white;
+}

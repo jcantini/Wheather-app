@@ -1,0 +1,24 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 4px;
+
+}
+.bot {
+    background-color:darkslategrey;
+    color: whitesmoke;
+    padding-top: 1px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 24px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.bot:hover {
+    background-color:olive;
+    color: black; 
+}
+.input{
+    border: 3px solid darkslategrey
+}

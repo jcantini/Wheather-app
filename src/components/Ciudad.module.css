@@ -1,0 +1,33 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ciudad {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid green;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(24, 185, 137);
+    font-size: 20px;
+}
+.botcontainer{
+    display:flex;
+   flex-direction: row;
+   justify-content: end;
+}
+.botc1 {
+    background-color: rgb(61, 135, 179);
+    width:30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.botc1:hover{
+    color:black;
+    background-color: cornflowerblue;
+}
+.botc2 {
+    color:white;
+}

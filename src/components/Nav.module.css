@@ -1,0 +1,21 @@
+.nav {
+ display:flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin: 5px;
+ padding: 4px;
+ border: 2px red;
+}
+
+.scity {
+    align-self: flex-end;
+}
+
+.foto {
+    align-self: flex-start;
+}
+
+.weather {
+    font-size: 30px;
+    color: rgb(36, 68, 90);
+}
